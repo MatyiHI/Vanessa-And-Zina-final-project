@@ -119,4 +119,21 @@
 ................................................................................................................................................................
 ................................................................................................................................................................
 ................................................................................................................................................................
-`</field><data>{"commentRefs":[],"fieldData":{"img":"O)tt!jMe-QzM2Z6L8Wgl"}}</data></shadow></value><next><block type="hudsetScore" id="%A3ftD}GAkYxu+}!dJpm"><value name="value"><shadow type="math_number" id=";8q?r?aW{zY5FRclqcBy"><field name="NUM">0</field></shadow></value></block></next></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"O)tt!jMe-QzM2Z6L8Wgl"}}</data></shadow></value><next><block type="hudsetScore" id="%A3ftD}GAkYxu+}!dJpm"><value name="value"><shadow type="math_number" id=";8q?r?aW{zY5FRclqcBy"><field name="NUM">0</field></shadow></value><next><block type="variables_set" id="hI-~i(RGAIElN,q+Jl5u"><field name="VAR" id="fCt49ep;n3W,GW]oLL.M">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="LiTGl-^58FxY*r]{oR9v"><value name="img"><shadow type="screen_image_picker" id="Gf(|-Qzqf*:)mX=d_g.n"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Gf(|-Qzqf*:)mX=d_g.n"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="t,[P68ujz?+fV|gC#ZiF"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></statement></block></xml>
