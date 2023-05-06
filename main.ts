@@ -1,6 +1,5 @@
 scene.setBackgroundImage(assets.image`-`)
-info.setScore(0)
-let mySprite = sprites.create(img`
+let hero = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
@@ -18,3 +17,5 @@ let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
+controller.moveSprite(hero)
+hero.setStayInScreen(true)
