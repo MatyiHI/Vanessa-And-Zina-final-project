@@ -1,5 +1,5 @@
 {
-    "name": "Vanessa And Zina Project",
+    "name": "Vanessa And Zina Project - Copy",
     "description": "",
     "dependencies": {
         "device": "*"
@@ -22,5 +22,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
