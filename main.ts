@@ -1,3 +1,4 @@
+let clover: Sprite = null
 scene.setBackgroundImage(assets.image`-`)
 let hero = sprites.create(img`
     . . . . . . . . . . . . . . . . 
@@ -19,3 +20,23 @@ let hero = sprites.create(img`
     `, SpriteKind.Player)
 controller.moveSprite(hero)
 hero.setStayInScreen(true)
+game.onUpdateInterval(5000, function () {
+    clover = sprites.createProjectileFromSide(img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        `, randint(-50, 50), 50)
+})
